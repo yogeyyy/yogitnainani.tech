@@ -30,20 +30,8 @@ export default function Home() {
       </div>
 
       <div className="w-3/5 flex justify-center font-source-sans-pro">
-        <p className="text-xl text-[#fefffa] font-source-sans-pro">
-          I am a full-stack developer, coding my forte,
-          <br />
-          An amateur designer, UI/UX I portray.
-          <br />
-          Brewing iced vanilla latte, a perfect blend,
-          <br />
-          Wandering Kota city, cozy cafes attend.
-          <br />
-          With bullet journal and sketchbook in hand,
-          <br />
-          I create web wonders, a digital command.
-          <br />
-        </p>
+        Full-stack Developer, with Coffee in one hand,
+        and confidence in other.
       </div>
 
       <div className="fixed bottom-8 left-8 p-4 rounded-full bg-[#727C57] flex flex-row items-center justify-center gap-2 transition-all duration-300 ease-in-out" onMouseOver={handleHover} onMouseOut={handleHover}>
