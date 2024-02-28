@@ -32,6 +32,7 @@ export default function Home() {
       <div className="w-3/5 flex justify-center font-source-sans-pro">
         Full-stack Developer, with Coffee in one hand,
         and confidence in other.
+        Android + web
       </div>
 
       <div className="fixed bottom-8 left-8 p-4 rounded-full bg-[#727C57] flex flex-row items-center justify-center gap-2 transition-all duration-300 ease-in-out" onMouseOver={handleHover} onMouseOut={handleHover}>
