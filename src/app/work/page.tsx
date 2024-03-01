@@ -1,3 +1,4 @@
+"use client";
 import HollowHeading from "@/components/typography/HollowHeading";
 
 export default function Work() {

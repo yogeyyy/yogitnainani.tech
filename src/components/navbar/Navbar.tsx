@@ -24,7 +24,7 @@ export default function Navbar() {
   };
 
   return (
-    <div className="w-full flex flex-col items-center fixed z-40">
+    <div className="w-full flex flex-col items-center fixed top-0 z-40">
       <div className="w-11/12 pt-8 flex flex-row justify-between items-center z-30">
         <h3 className="text-3xl text-[#fefffa] tracking-widest font-sourceSans uppercase">
           yogeyyy
