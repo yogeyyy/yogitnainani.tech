@@ -16,6 +16,7 @@ const config: Config = {
     },
     fontFamily: {
       anton: ['Anton', 'sans-serif'],
+      sourceSans : ['Source Sans Pro', 'sans-serif'],
     },
   },
   plugins: [],
