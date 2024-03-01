@@ -38,3 +38,28 @@
 .fadeIn {
   animation: fadeIn 1.5s ease-out;
 }
+
+ul:hover li .nav-link {
+  opacity: 0.1;
+}
+
+ul li .nav-link:hover {
+  opacity: 1;
+}
+
+ul li .nav-link .hollow-bg {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  opacity: 0;
+  transition: 0.25s;
+  font-size: 15rem;
+  z-index: -1;  
+  -webkit-text-stroke: 3px #fefffa; /* Adjust the stroke width and color as needed */
+  background-clip: text;
+  color: transparent;
+}
+
+ul li .nav-link:hover .hollow-bg {
+  opacity: 1;
+}
