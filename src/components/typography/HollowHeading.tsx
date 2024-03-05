@@ -2,7 +2,11 @@ import "@fontsource/anton";
 import "@fontsource/source-sans-pro";
 import { motion, useScroll, useTransform } from "framer-motion"; 
 
-export default function HollowHeading({ text }) {
+interface Props {
+    text: string; // Define the type for 'text' as string
+}
+
+export default function HollowHeading({ text }: Props) {
     const { scrollYProgress } = useScroll();
     const y1 = useTransform(scrollYProgress, [0, 1], [0, -100]);
 
