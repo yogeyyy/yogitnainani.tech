@@ -1,9 +1,10 @@
+"use client";
+
 import "@fontsource/anton";
 import "@fontsource/source-sans-pro";
 import "@fontsource/sacramento";
 
 import { useScroll, useTransform, motion } from "framer-motion";
-import HollowHeading from "../typography/HollowHeading";
 import Link from "next/link";
 
 export default function HeroSection() {

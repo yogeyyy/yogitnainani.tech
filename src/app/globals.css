@@ -67,3 +67,15 @@ ul li .nav-link .hollow-bg {
 ul li .nav-link:hover .hollow-bg {
   opacity: 1;
 }
+
+/* .work-card:nth-child(2n+1) {
+  transform: translate(-400px,0) scale(0);
+}
+
+.work-card:nth-child(2n+2) {
+  transform: translate(400px,0) scale(0);
+}
+
+.work-card.active {
+  transform: translate(0,0) scale(1);
+} */

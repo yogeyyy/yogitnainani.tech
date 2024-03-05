@@ -1,7 +1,7 @@
 "use client";
 import HollowHeading from "@/components/typography/HollowHeading";
 
-export default function Work() {
+export default function About() {
   return (
     <div className="w-full flex mt-40 justify-center">
       <div className="w-3/4 flex flex-row self-center gap-2">
