@@ -1,0 +1,65 @@
+"use client";
+
+import HollowHeading from "@/components/typography/HollowHeading";
+import {motion} from "framer-motion";
+
+const experiences = [
+    {
+      imgSrc: "Period.jpg",
+      imgAlt: "Period Flutter App",
+      repoURL: "https://github.com/GSC-IIIT-Kota",
+      name: "Period",
+      description:
+        "The Period App is a mobile application designed to address menstrual hygiene and sanitation challenges faced by women and girls globally.",
+      topics: "https://skillicons.dev/icons?i=dart,flutter,materialui,firebase",
+    },
+    {
+      imgSrc: "Poc.png",
+      imgAlt: "Bhavna's Piece of Cake",
+      repoURL: "https://github.com/yogeyyy/Bhavnas-Piece-Of-Cake",
+      name: "Bhavna's Piece of Cake",
+      description:
+        "A user-friendly e-commerce bakery website facilitating seamless ordering and menu browsing for delightful treats.",
+      topics: "https://skillicons.dev/icons?i=react,nodejs,express,mongodb",
+    },
+    {
+      imgSrc: "docSpot.png",
+      imgAlt: "DocSpot",
+      repoURL: "https://github.com/yogeyyy/DocSpot",
+      name: "DocSpot",
+      description:
+        "The Online Doctor Appointment System is a web-based platform that allows users to easily schedule appointments with doctors in their vicinity.",
+      topics: "https://skillicons.dev/icons?i=react,nodejs,express,mongodb",
+    },
+  ];
+
+
+export default function Experience() {
+  return (
+    <div className="w-full flex mt-20 py-8 justify-center">
+      <div className="w-3/4 flex flex-col">
+        <div className="w-full flex justify-center">
+          <HollowHeading text="Experience" />
+        </div>
+        <div className="w-full relative grid gap-10 grid-cols-2 grid-rows-2">
+          {/* {projects.map((project, index) => (
+            <motion.div
+              key={index}
+              // className="work-card"
+              // style={{x: x1, y: y1}}
+            >
+              <ExperienceCard
+                imgSrc={project.imgSrc}
+                imgAlt={project.imgAlt}
+                repoURL={project.repoURL}
+                name={project.name}
+                description={project.description}
+                topics={project.topics}
+              />
+            </motion.div>
+          ))} */}
+        </div>
+      </div>
+    </div>
+  );
+}

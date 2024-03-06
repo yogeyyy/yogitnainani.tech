@@ -82,7 +82,7 @@ export default function Navbar() {
             <motion.li onMouseMove={handleHover} className="mb-4">
               <Link
                 data-text="Projects"
-                href={"/work"}
+                href={"/projects"}
                 className="text-8xl leading-none text-[#fefffa] font-anton tracking-widest uppercase self-start transition duration-500 nav-link"
               >
                 <motion.h1 style={{ x: hoverX, y: hoverY }} className="hollow-bg absolute">Projects</motion.h1>

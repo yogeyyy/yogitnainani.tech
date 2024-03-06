@@ -1,7 +1,7 @@
 "use client";
 import { motion, useScroll, useTransform} from "framer-motion";
-import WorkCard from "@/components/cards/WorkCard";
-import HollowHeading from "@/components/typography/HollowHeading";
+import ProjectCard from "@/components/cards/WorkCard";
+import Heading from "@/components/typography/Heading";
 
 const projects = [
   {
@@ -33,17 +33,17 @@ const projects = [
   },
 ];
 
-export default function Work() {
+export default function Projects() {
 
   // const { scrollYProgress } = useScroll();
   // const y1 = useTransform(scrollYProgress, [0, 1], [0,0]);
   // const x1 = useTransform(scrollYProgress, [0, 1], [0,0]);
 
   return (
-    <div className="w-full flex mt-20 justify-center">
+    <div className="w-full flex mt-20 py-8 justify-center">
       <div className="w-3/4 flex flex-col">
-        <div className="w-full flex justify-start">
-          <HollowHeading text="Work" />
+        <div className="w-full flex justify-center">
+          <Heading text="Projects" />
         </div>
         <div className="w-full relative grid gap-10 grid-cols-2 grid-rows-2">
           {projects.map((project, index) => (
@@ -52,7 +52,7 @@ export default function Work() {
               // className="work-card"
               // style={{x: x1, y: y1}}
             >
-              <WorkCard
+              <ProjectCard
                 imgSrc={project.imgSrc}
                 imgAlt={project.imgAlt}
                 repoURL={project.repoURL}

@@ -3,7 +3,7 @@
 import HeroSection from "@/components/herosection/Herosection";
 import "@fontsource/anton";
 import "@fontsource/source-sans-pro";
-import Work from "./work/page";
+import Work from "./projects/page";
 
 export default function Home() {
 
