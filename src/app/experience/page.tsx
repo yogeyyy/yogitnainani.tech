@@ -1,63 +1,69 @@
 "use client";
 
+import ExperienceCard from "@/components/cards/ExperienceCard";
+import Heading from "@/components/typography/Heading";
 import HollowHeading from "@/components/typography/HollowHeading";
-import {motion} from "framer-motion";
+import { motion } from "framer-motion";
 
 const experiences = [
-    {
-      imgSrc: "Period.jpg",
-      imgAlt: "Period Flutter App",
-      repoURL: "https://github.com/GSC-IIIT-Kota",
-      name: "Period",
-      description:
-        "The Period App is a mobile application designed to address menstrual hygiene and sanitation challenges faced by women and girls globally.",
-      topics: "https://skillicons.dev/icons?i=dart,flutter,materialui,firebase",
-    },
-    {
-      imgSrc: "Poc.png",
-      imgAlt: "Bhavna's Piece of Cake",
-      repoURL: "https://github.com/yogeyyy/Bhavnas-Piece-Of-Cake",
-      name: "Bhavna's Piece of Cake",
-      description:
-        "A user-friendly e-commerce bakery website facilitating seamless ordering and menu browsing for delightful treats.",
-      topics: "https://skillicons.dev/icons?i=react,nodejs,express,mongodb",
-    },
-    {
-      imgSrc: "docSpot.png",
-      imgAlt: "DocSpot",
-      repoURL: "https://github.com/yogeyyy/DocSpot",
-      name: "DocSpot",
-      description:
-        "The Online Doctor Appointment System is a web-based platform that allows users to easily schedule appointments with doctors in their vicinity.",
-      topics: "https://skillicons.dev/icons?i=react,nodejs,express,mongodb",
-    },
-  ];
-
+  {
+    imgSrc: "President.png",
+    imgAlt: "President",
+    tenure: "August 2023 - Present",
+    position: "President",
+    orgName: "IIITians Network",
+    description: "As President of IIITians Network since August 2023, I've driven a significant increase in our follower count from 6800 to 10.8k. Through strategic social media initiatives and engaging content, we've fostered inter-college connections and hosted successful contests, enhancing community interaction.",
+  },
+  {
+    imgSrc: "webmaster.png",
+    imgAlt: "Webmaster",
+    tenure: "September 2023 - Present",
+    position: "Webmaster",
+    orgName: "IIIT Kota",
+    description: "Serving as the Webmaster at IIIT Kota since September 2023, I've led a dedicated team of college developers in managing and updating our website. Our efforts have ensured a seamless flow of information and promoted a user-friendly online experience, contributing to the continual improvement of our online presence."
+  },
+  {
+    imgSrc: "teamlead.png",
+    imgAlt: "Design lead",
+    tenure: "August 2023 - Present",
+    position: "Design Lead",
+    orgName: "Quills 'n' Stills",
+    description: "In my role as Design Lead at Quills 'n' Stills since August 2023, I've overseen the release of the latest editions of our institute's official magazine. From mood boarding to theme setting and design decisions, I've monitored the entire process to ensure high-quality publications.",
+  },
+  {
+    imgSrc: "coreteam.png",
+    imgAlt: "Coreteam Member",
+    tenure: "August 2022 - June 2023",
+    position: "Core Team Member",
+    orgName: "GDSC IIIT Kota",
+    description: " As a Core Team Member of GDSC IIIT Kota from August 2022 to June 2023, I orchestrated 10+ events, including a successful self-conducted web development event. Also, organized events in collaboration with well known communities like HackTheLeague and AWS User group Jaipur.",
+  },
+];
 
 export default function Experience() {
   return (
     <div className="w-full flex mt-20 py-8 justify-center">
       <div className="w-3/4 flex flex-col">
         <div className="w-full flex justify-center">
-          <HollowHeading text="Experience" />
+          <Heading text="Experience" />
         </div>
-        <div className="w-full relative grid gap-10 grid-cols-2 grid-rows-2">
-          {/* {projects.map((project, index) => (
+        <div className="w-full relative grid gap-10 grid-cols-3">
+          {experiences.map((experience, index) => (
             <motion.div
               key={index}
               // className="work-card"
               // style={{x: x1, y: y1}}
             >
               <ExperienceCard
-                imgSrc={project.imgSrc}
-                imgAlt={project.imgAlt}
-                repoURL={project.repoURL}
-                name={project.name}
-                description={project.description}
-                topics={project.topics}
+                imgSrc={experience.imgSrc}
+                imgAlt={experience.imgAlt}
+                tenure={experience.tenure}
+                position={experience.position}
+                orgName={experience.orgName}
+                description={experience.description}
               />
             </motion.div>
-          ))} */}
+          ))}
         </div>
       </div>
     </div>
