@@ -2,7 +2,6 @@
 
 import ExperienceCard from "@/components/cards/ExperienceCard";
 import Heading from "@/components/typography/Heading";
-import HollowHeading from "@/components/typography/HollowHeading";
 import { motion } from "framer-motion";
 
 const experiences = [
@@ -12,7 +11,7 @@ const experiences = [
     tenure: "August 2023 - Present",
     position: "President",
     orgName: "IIITians Network",
-    description: "As President of IIITians Network since August 2023, I've driven a significant increase in our follower count from 6800 to 10.8k. Through strategic social media initiatives and engaging content, we've fostered inter-college connections and hosted successful contests, enhancing community interaction.",
+    description: "As President of IIITians Network since August 2023, I've driven a significant increase in our follower count from 6.8k to 11.5k. Through strategic social media initiatives and engaging content, we've fostered inter-college connections and hosted successful contests, enhancing community interaction.",
   },
   {
     imgSrc: "webmaster.png",

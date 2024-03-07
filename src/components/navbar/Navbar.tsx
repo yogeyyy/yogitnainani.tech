@@ -91,12 +91,12 @@ export default function Navbar() {
             </motion.li>
             <motion.li onMouseMove={handleHover} className="mb-4">
               <Link
-                data-text="Contact"
-                href={"/contact"}
+                data-text="Connect"
+                href={"/connect"}
                 className="text-8xl leading-none text-[#fefffa] font-anton tracking-widest uppercase self-start transition duration-500 nav-link"
               >
-                <motion.h1 style={{ x: hoverX, y: hoverY }} className="hollow-bg absolute">Contact</motion.h1>
-                Contact
+                <motion.h1 style={{ x: hoverX, y: hoverY }} className="hollow-bg absolute">Connect</motion.h1>
+                Connect
               </Link>
             </motion.li>
           </ul>
