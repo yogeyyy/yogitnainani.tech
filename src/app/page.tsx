@@ -6,7 +6,6 @@ import "@fontsource/source-sans-pro";
 import Work from "./projects/page";
 import Experience from "./experience/page";
 import Link from "next/link";
-import Heading from "@/components/typography/Heading";
 import { FiArrowRight } from "react-icons/fi";
 
 export default function Home() {

@@ -27,7 +27,7 @@ export default function Navbar() {
     <div className="w-full flex flex-col items-center fixed top-0 z-40">
       <div className="w-11/12 pt-8 flex flex-row justify-between items-center z-30">
         <h3 className="text-3xl text-[#fefffa] tracking-widest font-sourceSans uppercase">
-          yogeyyy
+          <Link href={"/"}>yogeyyy</Link>
         </h3>
         <div
           className="h-10 w-10 border-2 border-[#fefffa] text-[#fefffa] text-2xl flex justify-center items-center"
