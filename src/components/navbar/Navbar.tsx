@@ -54,36 +54,7 @@ export default function Navbar() {
                 data-text="Home"
                 href={"/"}
                 className="text-8xl leading-none text-[#fefffa] font-anton tracking-widest uppercase self-start transition duration-500 nav-link"
-              >
-                <motion.h1 style={{ x: hoverX, y: hoverY }} className="hollow-bg absolute">Home</motion.h1>
-                Home
-              </Link>
-            </motion.li>
-            <motion.li onMouseMove={handleHover} className="mb-4">
-              <Link
-                data-text="About"
-                href={"/about"}
-                className="text-8xl leading-none text-[#fefffa] font-anton tracking-widest uppercase self-start transition duration-500 nav-link "
-              >
-                <motion.h1 style={{ x: hoverX, y: hoverY }} className="hollow-bg absolute">About</motion.h1>
-                About
-              </Link>
-            </motion.li>
-            <motion.li onMouseMove={handleHover} className="mb-4">
-              <Link
-                data-text="Experience"
-                href={"/experience"}
-                className="text-8xl leading-none text-[#fefffa] font-anton tracking-widest uppercase self-start transition duration-500 nav-link"
-              >
-                <motion.h1 style={{ x: hoverX, y: hoverY }} className="hollow-bg absolute">Experience</motion.h1>
-                Experience
-              </Link>
-            </motion.li>
-            <motion.li onMouseMove={handleHover} className="mb-4">
-              <Link
-                data-text="Projects"
-                href={"/projects"}
-                className="text-8xl leading-none text-[#fefffa] font-anton tracking-widest uppercase self-start transition duration-500 nav-link"
+                onClick={handleToggle}
               >
                 <motion.h1 style={{ x: hoverX, y: hoverY }} className="hollow-bg absolute">Projects</motion.h1>
                 Projects
@@ -91,9 +62,57 @@ export default function Navbar() {
             </motion.li>
             <motion.li onMouseMove={handleHover} className="mb-4">
               <Link
+                data-text="About"
+                href={"/about"}
+                className="text-8xl leading-none text-[#fefffa] font-anton tracking-widest uppercase self-start transition duration-500 nav-link "
+                onClick={handleToggle}
+              >
+                <motion.h1 style={{ x: hoverX, y: hoverY }} className="hollow-bg absolute">About</motion.h1>
+                About
+              </Link>
+            </motion.li>
+            <motion.li onMouseMove={handleHover} className="mb-4">
+              <a
+                data-text="Resume"
+                href={"https://drive.google.com/file/d/1MJpHTLYj1C_UMpPG4Kflos7EyQ_601T3/view?usp=drive_link"}
+                className="text-8xl leading-none text-[#fefffa] font-anton tracking-widest uppercase self-start transition duration-500 nav-link"
+                onClick={handleToggle}
+                target="_blank"
+              >
+                <motion.h1 style={{ x: hoverX, y: hoverY }} className="hollow-bg absolute">Resume</motion.h1>
+                Resume
+              </a>
+            </motion.li>
+            <motion.li onMouseMove={handleHover} className="mb-4">
+              <a
+                data-text="LinkedIn"
+                href={"https://www.linkedin.com/in/yogitnainani/"}
+                className="text-8xl leading-none text-[#fefffa] font-anton tracking-widest uppercase self-start transition duration-500 nav-link"
+                onClick={handleToggle}
+                target="_blank"
+              >
+                <motion.h1 style={{ x: hoverX, y: hoverY }} className="hollow-bg absolute">LinkedIn</motion.h1>
+                LinkedIn
+              </a>
+            </motion.li>
+            <motion.li onMouseMove={handleHover} className="mb-4">
+              <a
+                data-text="Github"
+                href={"https://github.com/yogeyyy"}
+                className="text-8xl leading-none text-[#fefffa] font-anton tracking-widest uppercase self-start transition duration-500 nav-link"
+                onClick={handleToggle}
+                target="_blank"
+              >
+                <motion.h1 style={{ x: hoverX, y: hoverY }} className="hollow-bg absolute">Github</motion.h1>
+                Github
+              </a>
+            </motion.li>
+            <motion.li onMouseMove={handleHover} className="mb-4">
+              <Link
                 data-text="Connect"
                 href={"/connect"}
                 className="text-8xl leading-none text-[#fefffa] font-anton tracking-widest uppercase self-start transition duration-500 nav-link"
+                onClick={handleToggle}
               >
                 <motion.h1 style={{ x: hoverX, y: hoverY }} className="hollow-bg absolute">Connect</motion.h1>
                 Connect
