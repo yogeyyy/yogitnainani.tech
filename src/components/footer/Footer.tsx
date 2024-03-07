@@ -39,7 +39,6 @@ export default function Footer() {
               <p className="text-[#fefffa]"><a href="https://www.linkedin.com/in/yogitnainani/" target="_blank">LinkedIn</a></p>
               <p className="text-[#fefffa]"><a href="https://github.com/yogeyyy" target="_blank">Github</a></p>
               <p className="text-[#fefffa]"><a href="https://www.instagram.com/yogitnainani/" target="_blank">Instagram</a></p>
-              <p className="text-[#fefffa]"><a href="https://twitter.com/YogitNainani" target="_blank">X</a></p>
             </div>
           </div>
         </div>
