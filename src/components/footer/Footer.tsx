@@ -45,11 +45,11 @@ export default function Footer() {
         <div className="flex flex-col pb-24">
           <div className="flex justify-center items-center gap-2">
             <FaRegCopyright className="text-[#727C57]"/>
-            <p className="text-[#727C57] tracking-wider">{year} Yogit Nainani</p>
+            <p className="text-[#727C57]">{year} Yogit Nainani</p>
           </div>
           <div className="flex justify-center items-center gap-2">
             <p className="text-[#727C57]">Made with </p>
-            <FaRegHeart className="text-[#fefffa]"/>
+            <FaRegHeart className="text-[#727C57]"/>
             <p className="text-[#727C57]">in India</p>
           </div>
         </div>
