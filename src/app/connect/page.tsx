@@ -31,7 +31,7 @@ export default function Connect() {
             <textarea id="message" className="bg-transparent border border-[#727C57] text-grey-800 p-2 rounded-sm text-[#fefffa] focus:rounded-sm" name="message" placeholder="Hi! I would like to connect with you." required></textarea>
             </div>
 
-            <input type="submit" value="Submit" className="border border-[#727C57] bg-[#727C57] p-2"/>
+            <input type="submit" value="Submit" className="border border-[#727C57] bg-[#727C57] p-2 w-1/2"/>
           </form>
         </div>
       </div>
