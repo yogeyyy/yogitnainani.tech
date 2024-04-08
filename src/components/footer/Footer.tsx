@@ -45,7 +45,7 @@ export default function Footer() {
         <div className="flex flex-col pb-24">
           <div className="flex justify-center items-center gap-2">
             <FaRegCopyright className="text-[#727C57]"/>
-            <p className="text-[#727C57]">{year} Yogit Nainani</p>
+            <p className="text-[#727C57]">Yogit Nainani {year}</p>
           </div>
           <div className="flex justify-center items-center gap-2">
             <p className="text-[#727C57]">Made with </p>
