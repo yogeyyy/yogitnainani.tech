@@ -5,7 +5,7 @@ export default function Connect() {
     <div className="w-full flex mt-20 py-8 justify-center">
       <div className="w-3/4 flex flex-col">
         <div className="w-full flex justify-center">
-          <Heading text="Connect" />
+          <Heading text="Connect w/ me" />
         </div>
         <div className="w-full relative border border-[#727C57] rounded-sm p-12">
           <form className="flex flex-col w-full gap-2">
