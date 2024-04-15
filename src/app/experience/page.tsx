@@ -31,7 +31,7 @@ const experiences = [
   },
   {
     imgSrc: "coreteam.png",
-    imgAlt: "Coreteam Member",
+    imgAlt: "GDSC Core team Member",
     tenure: "August 2022 - June 2023",
     position: "Core Team Member",
     orgName: "GDSC IIIT Kota",
