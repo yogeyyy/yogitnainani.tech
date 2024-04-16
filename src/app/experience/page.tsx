@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 const experiences = [
   {
     imgSrc: "President.png",
-    imgAlt: "President",
+    imgAlt: "President (Prez)",
     tenure: "August 2023 - Present",
     position: "President",
     orgName: "IIITians Network",
