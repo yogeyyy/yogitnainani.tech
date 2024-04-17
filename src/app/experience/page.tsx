@@ -8,7 +8,7 @@ const experiences = [
   {
     imgSrc: "President.png",
     imgAlt: "President (Prez)",
-    tenure: "August 2023 - Present",
+    tenure: "August 2023 - May 2024",
     position: "President",
     orgName: "IIITians Network",
     description: "As President of IIITians Network since August 2023, I've driven a significant increase in our follower count from 6.8k to 11.5k. Through strategic social media initiatives and engaging content, we've fostered inter-college connections and hosted successful contests, enhancing community interaction.",
