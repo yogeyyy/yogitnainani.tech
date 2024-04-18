@@ -24,7 +24,7 @@ const experiences = [
   {
     imgSrc: "teamlead.png",
     imgAlt: "Design lead",
-    tenure: "August 2023 - Present",
+    tenure: "August 2023 - May 2023",
     position: "Design Lead",
     orgName: "Quills 'n' Stills",
     description: "In my role as Design Lead at Quills 'n' Stills since August 2023, I've overseen the release of the latest editions of our institute's official magazine. From mood boarding to theme setting and design decisions, I've monitored the entire process to ensure high-quality publications.",
