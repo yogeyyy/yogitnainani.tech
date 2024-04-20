@@ -23,7 +23,7 @@ const experiences = [
   },
   {
     imgSrc: "teamlead.png",
-    imgAlt: "Design lead",
+    imgAlt: "Magazine Design lead",
     tenure: "August 2023 - May 2023",
     position: "Design Lead",
     orgName: "Quills 'n' Stills",
