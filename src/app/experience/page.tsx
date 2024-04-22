@@ -15,7 +15,7 @@ const experiences = [
   },
   {
     imgSrc: "webmaster.png",
-    imgAlt: "Webmaster",
+    imgAlt: "Webmaster @IIITK Website",
     tenure: "September 2023 - Present",
     position: "Webmaster",
     orgName: "IIIT Kota",
