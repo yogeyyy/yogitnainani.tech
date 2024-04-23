@@ -16,7 +16,7 @@ const experiences = [
   {
     imgSrc: "webmaster.png",
     imgAlt: "Webmaster @IIITK Website",
-    tenure: "September 2023 - Present",
+    tenure: "September 2023 - May 2024",
     position: "Webmaster",
     orgName: "IIIT Kota",
     description: "Serving as the Webmaster at IIIT Kota since September 2023, I've led a dedicated team of college developers in managing and updating our website. Our efforts have ensured a seamless flow of information and promoted a user-friendly online experience, contributing to the continual improvement of our online presence."
