@@ -34,7 +34,7 @@ const experiences = [
     imgAlt: "GDSC Core team Member",
     tenure: "August 2022 - June 2023",
     position: "Core Team Member",
-    orgName: "GDSC IIIT Kota",
+    orgName: "GDSC @ IIIT Kota",
     description: "As a Core Team Member of GDSC IIIT Kota from August 2022 to June 2023, I orchestrated 10+ events, including a successful self-conducted web development event. Also, organized events in collaboration with well known communities like HackTheLeague and AWS User group Jaipur.",
   },
 ];
