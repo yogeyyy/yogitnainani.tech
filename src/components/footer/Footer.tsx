@@ -28,7 +28,7 @@ export default function Footer() {
             </h3>
             <p className="text-lg text-[#727C57] py-4">
               I usually dabble between multiple projects and opportunities but
-              I'll be happy to discuss any new ideas. Let's get in touch!
+              I'll be happy to discuss any new ideas. Let's get in touch.
             </p>
           </div>
           <div className="w-1/3 flex flex-col">
