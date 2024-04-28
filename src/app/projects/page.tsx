@@ -14,6 +14,15 @@ const projects = [
     topics: "https://skillicons.dev/icons?i=dart,flutter,materialui,firebase",
   },
   {
+    imgSrc: "krishibindu.jpg",
+    imgAlt: "Krishi Bindu logo",
+    repoURL: "https://github.com/Wittyhacks4CR004/WH036_Jacobs_Creek",
+    name: "Krishi Bindu App",
+    description:
+      "The कृषि बिन्दु App is a go-to app for farming success!",
+    topics: "https://skillicons.dev/icons?i=dart,flutter,materialui,firebase",
+  },
+  {
     imgSrc: "Poc.png",
     imgAlt: "Bhavna's Piece of Cake",
     repoURL: "https://github.com/yogeyyy/Bhavnas-Piece-Of-Cake",
